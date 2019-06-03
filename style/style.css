@@ -1,0 +1,31 @@
+.landing-section {
+  text-transform: uppercase;
+  position: relative;
+  height: 100vh;
+  background: url('../img/header.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.landing-section h1 {
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -215px;
+  font-size: 1.5em;
+}
+
+.landing-button {
+  text-transform: uppercase;
+  border-radius: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 63px;
+  margin-left: -80px;
+}
